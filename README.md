@@ -1,7 +1,6 @@
 ## Installation
 
 - You need to create database in `mysql` with `YOUR_DATABASE_NAME`
-- `git clone https://github.com/xeusteerapat/node-typeorm-crud.git`
 - `npm install`
 - create `ormconfig.json` based on your database
 
