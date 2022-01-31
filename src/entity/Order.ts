@@ -1,0 +1,19 @@
+import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+
+@Entity()
+export class Order {
+    @PrimaryGeneratedColumn()
+    id: number;
+
+    @Column()
+    name: string;
+
+    @Column()
+    price: number;
+
+    @Column()
+    createDate: Date;
+
+    @Column()
+    updatedDate: Date;
+}
