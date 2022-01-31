@@ -17,4 +17,6 @@ export class User {
   @Column()
   registerDate: Date;
 
+  @Column()
+  updatedDate: Date;
 }
